@@ -5,6 +5,8 @@ const PRACTICAS = [
   { href: './ev1/4_lineas', label: 'Líneas (unión de 8 puntos con línea)' },
   { href: './ev1/5_linea_curva', label: 'Línea curva' },
   { href: './ev1/6_casita', label: 'Casita' },
+  { href: './ev1/7_flor', label: 'Flor' },
+  { href: './ev2/8_coche', label: 'Coche' },
 ];
 
 const app = document.getElementById('app');
