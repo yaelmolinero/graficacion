@@ -6,7 +6,9 @@ const PRACTICAS = [
   { href: './ev1/5_linea_curva', label: 'Línea curva' },
   { href: './ev1/6_casita', label: 'Casita' },
   { href: './ev1/7_flor', label: 'Flor' },
-  { href: './ev2/8_coche', label: 'Coche' },
+  { href: './ev2/8_figura', label: 'Figuras (cuadrado, circulo, triangulo)' },
+  { href: './ev2/9_casita', label: 'Casita' },
+  { href: './ev2/10_camion', label: 'Camion' },
 ];
 
 const app = document.getElementById('app');
