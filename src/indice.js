@@ -9,6 +9,8 @@ const PRACTICAS = [
   { href: './ev2/8_figura', label: 'Figuras (cuadrado, circulo, triangulo)' },
   { href: './ev2/9_casita', label: 'Casita' },
   { href: './ev2/10_camion', label: 'Camion' },
+  { href: './ev2/11_click_event', label: 'Clic event' },
+  { href: './ev2/12_cuadriculas', label: 'Cuadriculas' },
 ];
 
 const app = document.getElementById('app');

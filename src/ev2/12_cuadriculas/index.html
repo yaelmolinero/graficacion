@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Práctica 12</title>
+    <style>
+      * {
+        box-sizing: content-box;
+      }
+
+      .canva {
+        display: block;
+        border: 4px solid black;
+        border-radius: 5%;
+        cursor: crosshair;
+      }
+
+      body {
+        text-align: center;
+        background-color: #ccc;
+        font-family: sans-serif;
+        display: flex;
+        justify-content: center;
+      }
+
+      #grid {
+        display: grid;
+        grid-template-rows: 200px 200px 200px;
+        grid-template-columns: 200px 200px;
+        gap: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="grid">
+      <canvas class="canva" id="area1" width="200" height="200"></canvas>
+      <canvas class="canva" id="area2" width="200" height="200"></canvas>
+      <canvas class="canva" id="area3" width="200" height="200"></canvas>
+      <canvas class="canva" id="area4" width="200" height="200"></canvas>
+      <canvas class="canva" id="area5" width="200" height="200"></canvas>
+      <canvas class="canva" id="area6" width="200" height="200"></canvas>
+    </div>
+
+    <script src="./practica12.js"></script>
+  </body>
+</html>
